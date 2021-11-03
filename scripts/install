@@ -193,14 +193,14 @@ chown $app:$app "$final_path/live/config/settings.yml"
 ynh_script_progression --message="Configuring a systemd service..."
 
 # Create a dedicated systemd config
-ynh_add_systemd_config --service="$app-web" --template="glitchsoc-web.service"
-ynh_add_systemd_config --service="$app-sidekiq" --template="glitchsoc-sidekiq.service"
-ynh_add_systemd_config --service="$app-streaming" --template="glitchsoc-streaming.service"
+ynh_add_systemd_config --service="$app-web" --template="ecko-web.service"
+ynh_add_systemd_config --service="$app-sidekiq" --template="ecko-sidekiq.service"
+ynh_add_systemd_config --service="$app-streaming" --template="ecko-streaming.service"
 
 #=================================================
-# INSTALLING GLITCH-SOC
+# INSTALLING ECKO
 #=================================================
-ynh_script_progression --message="Installing Glitch-Soc..."
+ynh_script_progression --message="Installing Ecko..."
 
 pushd "$final_path/live"
 	sudo -u $app $ynh_ruby_load_path bin/bundle config deployment 'true'

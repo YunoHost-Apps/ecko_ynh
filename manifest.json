@@ -1,21 +1,21 @@
 {
-    "name": "Glitch-Soc",
-    "id": "glitchsoc",
+    "name": "Ecko",
+    "id": "ecko",
     "packaging_format": 1,
     "description": {
-        "en": "A libre and federated social network, fork of Mastodon.",
-        "fr": "Un réseau social libre et fédéré, scission de Mastodon."
+        "en": "Dynamic fork of Mastodon's federated social network, est. Aug 2021.",
+        "fr": "Scission dynamique du réseau social et fédéré de Mastodon, nee Aout 2021."
     },
-    "version": "2021-05-22~ynh2",
-    "url": "https://github.com/glitch-soc/mastodon",
+    "version": "2021-10-26~ynh1",
+    "url": "https://github.com/magicstone-dev/ecko",
     "upstream": {
         "license": "free",
-        "website": "https://glitch-soc.github.io/docs/",
-        "code": "https://github.com/glitch-soc/mastodon"
+        "website": "https://magicstone.dev",
+        "code": "https://github.com/magicstone-dev/ecko"
     },
     "license": "AGPL-3.0-or-later",
     "maintainer": {
-        "name": "Tagada"
+        "name": "weex"
     },
     "requirements": {
         "yunohost": ">= 4.2.0"
