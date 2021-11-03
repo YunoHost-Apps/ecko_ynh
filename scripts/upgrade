@@ -163,7 +163,7 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..."
 
-	# Download Glitch-Soc
+	# Download Ecko
 	tmpdir="$(mktemp -d)"
 
 	mkdir $tmpdir/system
@@ -254,14 +254,14 @@ chown $app:$app "$config"
 ynh_script_progression --message="Upgrading systemd configuration..."
 
 # Create a dedicated systemd config
-ynh_add_systemd_config --service="$app-web" --template="glitchsoc-web.service"
-ynh_add_systemd_config --service="$app-sidekiq" --template="glitchsoc-sidekiq.service"
-ynh_add_systemd_config --service="$app-streaming" --template="glitchsoc-streaming.service"
+ynh_add_systemd_config --service="$app-web" --template="ecko-web.service"
+ynh_add_systemd_config --service="$app-sidekiq" --template="ecko-sidekiq.service"
+ynh_add_systemd_config --service="$app-streaming" --template="ecko-streaming.service"
 
 #=================================================
-# UPGRADE GLITCH-SOC
+# UPGRADE ECKO
 #=================================================
-ynh_script_progression --message="Upgrading Glitch-Soc..."
+ynh_script_progression --message="Upgrading Ecko..."
 
 pushd "$final_path/live"
 	sudo -u $app $ynh_ruby_load_path bin/bundle config deployment 'true'

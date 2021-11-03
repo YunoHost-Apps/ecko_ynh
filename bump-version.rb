@@ -53,11 +53,11 @@ module Yunohost
   end
 end
 
-github = JSON.parse(URI.parse('https://api.github.com/repos/glitch-soc/mastodon/branches/main').read)
+github = JSON.parse(URI.parse('https://api.github.com/repos/magicstone-dev/ecko/branches/main').read)
 last_commit = github["commit"]["sha"]
 version = Date.parse(github["commit"]["commit"]["author"]["date"]).to_s
 
-url = "https://github.com/glitch-soc/mastodon/archive/#{last_commit}.tar.gz"
+url = "https://github.com/magicstone-dev/ecko/archive/#{last_commit}.tar.gz"
 
 puts "Downloading last commit at #{url}"
 release_file = URI.parse(url).read
