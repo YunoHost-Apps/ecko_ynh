@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Dynamic fork of Mastodon's federated social network, est. Aug 2021.",
-        "fr": "Scission dynamique du réseau social et fédéré de Mastodon, nee Aout 2021."
+        "fr": "Fork dynamique du réseau social fédéré de Mastodon, créé en août 2021."
     },
     "version": "2021-10-26~ynh1",
     "url": "https://github.com/magicstone-dev/ecko",
