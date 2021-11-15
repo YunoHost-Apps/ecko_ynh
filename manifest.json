@@ -6,7 +6,7 @@
         "en": "Dynamic fork of Mastodon's federated social network, est. Aug 2021.",
         "fr": "Fork dynamique du réseau social fédéré de Mastodon, créé en août 2021."
     },
-    "version": "2021-10-26~ynh1",
+    "version": "20211026~ynh1",
     "url": "https://github.com/magicstone-dev/ecko",
     "upstream": {
         "license": "free",
@@ -28,18 +28,19 @@
         "install": [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "admin",
-                "type": "user",
-                "example": "johndoe"
+                "type": "user"
             },
             {
                 "name": "is_public",
                 "type": "boolean",
-                "default": true
+                "default": true,
+                "help": {
+                    "en": "Ecko needs to be public if any level of federation (posts, follows) is to be enabled."
+                }
             },
             {
                 "name": "language",
