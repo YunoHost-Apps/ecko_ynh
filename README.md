@@ -17,9 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Dynamic fork of Mastodon's federated social network, est. Aug 2021.
 
-**Shipped version:** 20211026~ynh1
-
-
+**Shipped version:** 2021-11-20~ynh1
 
 ## Disclaimers / important information
 
