@@ -19,6 +19,8 @@ Dynamic fork of Mastodon's federated social network, est. Aug 2021.
 
 **Shipped version:** 2021-11-20~ynh1
 
+
+
 ## Disclaimers / important information
 
 Ecko is beta software, and under active development. Use at your own risk!
