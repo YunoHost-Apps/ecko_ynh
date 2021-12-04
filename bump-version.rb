@@ -55,7 +55,7 @@ end
 
 github = JSON.parse(URI.parse('https://api.github.com/repos/magicstone-dev/ecko/branches/main').read)
 last_commit = github["commit"]["sha"]
-version = Date.parse(github["commit"]["commit"]["author"]["date"]).to_s
+version = Date.parse(github["commit"]["commit"]["author"]["date"]).to_s.gsub '-', '.'
 
 url = "https://github.com/magicstone-dev/ecko/archive/#{last_commit}.tar.gz"
 
