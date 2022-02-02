@@ -1,7 +1,7 @@
-SOURCE_URL=https://github.com/magicstone-dev/ecko/archive/e581c1a3a0bbf985acc56670a5c79bf63289eac9.tar.gz
-SOURCE_SUM=5dbf6101e7a75ba6188133d9a8230daa87e160d8b583c1f5e58f693c8f2765e2
+SOURCE_URL=https://github.com/magicstone-dev/ecko/archive/a15bad2418a6366357a21169029c1e197c970c31.tar.gz
+SOURCE_SUM=0faadbdba48cffb40c29dd8ecb73d9f6dff52bcaac57d005bfa8d0f39e1adb8a
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=e581c1a3a0bbf985acc56670a5c79bf63289eac9.tar.gz
+SOURCE_FILENAME=a15bad2418a6366357a21169029c1e197c970c31.tar.gz
 SOURCE_EXTRACT=true
