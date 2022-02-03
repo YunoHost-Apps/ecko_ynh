@@ -13,7 +13,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Fork dynamique du réseau social fédéré de Mastodon, créé en août 2021.
 
-**Version incluse :** 2022.01.31~ynh1
+**Version incluse :** 2022.02.03~ynh1
 
 
 
