@@ -3,13 +3,13 @@
     "id": "ecko",
     "packaging_format": 1,
     "description": {
-        "en": "Dynamic fork of Mastodon's federated social network, est. Aug 2021.",
-        "fr": "Fork dynamique du réseau social fédéré de Mastodon, créé en août 2021."
+        "en": "Dynamic fork of Mastodon's federated social network",
+        "fr": "Fork dynamique du réseau social fédéré de Mastodon"
     },
     "version": "2022.12.04~ynh1",
     "url": "https://github.com/magicstone-dev/ecko",
     "upstream": {
-        "license": "free",
+        "license": "AGPL-3.0-or-later",
         "website": "https://magicstone.dev",
         "code": "https://github.com/magicstone-dev/ecko"
     },
@@ -18,7 +18,7 @@
         "name": "weex"
     },
     "requirements": {
-        "yunohost": ">= 4.2.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
