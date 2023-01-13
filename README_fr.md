@@ -15,9 +15,9 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Fork dynamique du réseau social fédéré de Mastodon, créé en août 2021.
+Fork dynamique du réseau social fédéré de Mastodon
 
-**Version incluse :** 2022.11.15~ynh1
+**Version incluse :** 2022.12.04~ynh1
 ## Avertissements / informations importantes
 
 Ecko is beta software, and under active development. Use at your own risk!
