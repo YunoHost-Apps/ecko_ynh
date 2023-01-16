@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Ecko pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/ecko.svg)](https://dash.yunohost.org/appci/app/ecko) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/ecko.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/ecko.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/ecko.svg)](https://dash.yunohost.org/appci/app/ecko) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/ecko.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/ecko.maintain.svg)  
 [![Installer Ecko avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=ecko)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Ecko rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Ecko rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Fork dynamique du réseau social fédéré de Mastodon
 
@@ -31,8 +31,8 @@ You may wish to close or limit registration for your instance of Ecko, so that t
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://magicstone.dev>
-* Dépôt de code officiel de l'app : <https://github.com/magicstone-dev/ecko>
+* Site officiel de l’app : <https://magicstone.dev>
+* Dépôt de code officiel de l’app : <https://github.com/magicstone-dev/ecko>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_ecko>
 * Signaler un bug : <https://github.com/YunoHost-Apps/ecko_ynh/issues>
 
@@ -48,4 +48,4 @@ ou
 sudo yunohost app upgrade ecko -u https://github.com/YunoHost-Apps/ecko_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
