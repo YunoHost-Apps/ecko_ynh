@@ -39,7 +39,8 @@
                 "type": "boolean",
                 "default": true,
                 "help": {
-                    "en": "Ecko needs to be public if any level of federation (posts, follows) is to be enabled."
+                    "en": "Ecko needs to be public if any level of federation (posts, follows) is to be enabled.",
+                    "fr": "Ecko doit être public si n'importe quel niveau de fédération (posts, follow) doit être activé."
                 }
             },
             {
